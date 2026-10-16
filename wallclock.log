@@ -1,0 +1,18 @@
+=== fork ===
+0.04 sec  1124 KB
+0.02 sec  1144 KB
+0.01 sec  1144 KB
+0.01 sec  1136 KB
+0.01 sec  1144 KB
+=== pthread ===
+0.09 sec  9336 KB
+0.09 sec  9464 KB
+0.09 sec  9328 KB
+0.10 sec  9336 KB
+0.09 sec  9336 KB
+=== clone ===
+0.10 sec  12004 KB
+0.10 sec  12152 KB
+0.10 sec  12772 KB
+0.10 sec  11384 KB
+0.10 sec  12396 KB

@@ -1,0 +1,190 @@
+=== Run 1: fork ===
+
+ Performance counter stats for './bench fork 1000':
+
+             91.61 msec task-clock                                                            
+                41      context-switches                                                      
+               176      cpu-migrations                                                        
+
+       0.038590016 seconds time elapsed
+
+       0.085682000 seconds user
+       0.039839000 seconds sys
+
+
+=== Run 1: pthread ===
+event syntax error: 'task-clok,context-switches,cpu-migrations'
+                     \___ Bad event name
+
+Unable to find event on a PMU of 'task-clok'
+Run 'perf list' for a list of valid events
+
+ Usage: perf stat [<options>] [<command>]
+
+    -e, --event <event>   event selector. use 'perf list' to list available events
+=== Run 1: clone ===
+
+ Performance counter stats for './bench clone 1000':
+
+            364.59 msec task-clock                                                            
+               483      context-switches                                                      
+               385      cpu-migrations                                                        
+
+       0.102181139 seconds time elapsed
+
+       0.357024000 seconds user
+       0.011125000 seconds sys
+
+
+=== Run 2: fork ===
+
+ Performance counter stats for './bench fork 1000':
+
+             48.65 msec task-clock                                                            
+                25      context-switches                                                      
+               280      cpu-migrations                                                        
+
+       0.018249673 seconds time elapsed
+
+       0.046078000 seconds user
+       0.018773000 seconds sys
+
+
+=== Run 2: pthread ===
+event syntax error: 'task-clok,context-switches,cpu-migrations'
+                     \___ Bad event name
+
+Unable to find event on a PMU of 'task-clok'
+Run 'perf list' for a list of valid events
+
+ Usage: perf stat [<options>] [<command>]
+
+    -e, --event <event>   event selector. use 'perf list' to list available events
+=== Run 2: clone ===
+
+ Performance counter stats for './bench clone 1000':
+
+            356.91 msec task-clock                                                            
+               501      context-switches                                                      
+               358      cpu-migrations                                                        
+
+       0.099533007 seconds time elapsed
+
+       0.348520000 seconds user
+       0.012087000 seconds sys
+
+
+=== Run 3: fork ===
+
+ Performance counter stats for './bench fork 1000':
+
+             48.81 msec task-clock                                                            
+                24      context-switches                                                      
+               123      cpu-migrations                                                        
+
+       0.018576048 seconds time elapsed
+
+       0.046361000 seconds user
+       0.018849000 seconds sys
+
+
+=== Run 3: pthread ===
+event syntax error: 'task-clok,context-switches,cpu-migrations'
+                     \___ Bad event name
+
+Unable to find event on a PMU of 'task-clok'
+Run 'perf list' for a list of valid events
+
+ Usage: perf stat [<options>] [<command>]
+
+    -e, --event <event>   event selector. use 'perf list' to list available events
+=== Run 3: clone ===
+
+ Performance counter stats for './bench clone 1000':
+
+            367.79 msec task-clock                                                            
+               248      context-switches                                                      
+               389      cpu-migrations                                                        
+
+       0.100644677 seconds time elapsed
+
+       0.356994000 seconds user
+       0.013999000 seconds sys
+
+
+=== Run 4: fork ===
+
+ Performance counter stats for './bench fork 1000':
+
+             50.21 msec task-clock                                                            
+                29      context-switches                                                      
+               352      cpu-migrations                                                        
+
+       0.019128341 seconds time elapsed
+
+       0.048928000 seconds user
+       0.018192000 seconds sys
+
+
+=== Run 4: pthread ===
+event syntax error: 'task-clok,context-switches,cpu-migrations'
+                     \___ Bad event name
+
+Unable to find event on a PMU of 'task-clok'
+Run 'perf list' for a list of valid events
+
+ Usage: perf stat [<options>] [<command>]
+
+    -e, --event <event>   event selector. use 'perf list' to list available events
+=== Run 4: clone ===
+
+ Performance counter stats for './bench clone 1000':
+
+            387.30 msec task-clock                                                            
+               446      context-switches                                                      
+               462      cpu-migrations                                                        
+
+       0.104071311 seconds time elapsed
+
+       0.373430000 seconds user
+       0.017488000 seconds sys
+
+
+=== Run 5: fork ===
+
+ Performance counter stats for './bench fork 1000':
+
+             47.53 msec task-clock                                                            
+                34      context-switches                                                      
+               283      cpu-migrations                                                        
+
+       0.016927711 seconds time elapsed
+
+       0.046176000 seconds user
+       0.015937000 seconds sys
+
+
+=== Run 5: pthread ===
+event syntax error: 'task-clok,context-switches,cpu-migrations'
+                     \___ Bad event name
+
+Unable to find event on a PMU of 'task-clok'
+Run 'perf list' for a list of valid events
+
+ Usage: perf stat [<options>] [<command>]
+
+    -e, --event <event>   event selector. use 'perf list' to list available events
+=== Run 5: clone ===
+
+ Performance counter stats for './bench clone 1000':
+
+            394.14 msec task-clock                                                            
+               235      context-switches                                                      
+               341      cpu-migrations                                                        
+
+       0.105272772 seconds time elapsed
+
+       0.387531000 seconds user
+       0.010144000 seconds sys
+
+

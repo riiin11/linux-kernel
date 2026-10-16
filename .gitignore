@@ -1,0 +1,30 @@
+# Бинарники
+*.o
+*.ko
+*.mod
+*.mod.c
+*.so
+bench
+bench_static
+clone_thread
+clone_thread_static
+pthread_thread
+minishell
+
+# Артефакты сборки ядра
+vmlinux
+vmlinux.o
+Image
+*.img
+linux-source-*/
+
+# initramfs
+initramfs/
+
+# Логи QEMU и временные
+*.tmp
+*.log.gz
+
+# Мусор редакторов
+*.swp
+*~
