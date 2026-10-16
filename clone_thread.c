@@ -30,10 +30,25 @@ int main(void)
     printf("[main] PID=%d, TID=%d, counter=%d\n",
            getpid(), syscall(SYS_gettid), shared_counter);
 
-    pid_t tid = clone(thread_func, stack_top,
-                      CLONE_VM | CLONE_FS | CLONE_FILES |
-                      CLONE_SIGHAND | CLONE_THREAD | SIGCHLD,
-                      NULL);
+        pid_t tid = clone(
+        thread_func,   /* функция, с которой стартует новый поток */
+        stack_top,     /* верхушка стека нового потока */
+
+        /* Флаги разделения ресурсов — делают clone() похожим на pthread_create(): */
+        CLONE_VM        |  /* общее адресное пространство (mm_struct):
+                              изменения памяти видны всем потокам */
+        CLONE_FS        |  /* общий cwd, root, umask (fs_struct):
+                              chdir() в одном потоке виден остальным */
+        CLONE_FILES     |  /* общая таблица файловых дескрипторов (files_struct):
+                              открытие/закрытие fd видно всем потокам */
+        CLONE_SIGHAND   |  /* общие обработчики сигналов (sighand_struct):
+                              sigaction() меняет поведение для всех */
+        CLONE_THREAD    |  /* поток в той же thread group:
+                              общий TGID, getpid() одинаков у всех */
+        SIGCHLD,           /* сигнал родителю при завершении потока */
+
+        NULL               /* аргумент для thread_func (не используется) */
+    );
     if (tid == -1) { perror("clone"); return 1; }
 
     sleep(1);
