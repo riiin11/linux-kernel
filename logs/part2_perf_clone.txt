@@ -1,0 +1,66 @@
+=== clone ===
+--- run 1 ---
+
+ Performance counter stats for './bench clone 1000':
+
+             28.55 msec task-clock                                                            
+               326      context-switches                                                      
+
+       0.016069997 seconds time elapsed
+
+       0.014673000 seconds user
+       0.024455000 seconds sys
+
+
+--- run 2 ---
+
+ Performance counter stats for './bench clone 1000':
+
+             27.62 msec task-clock                                                            
+               464      context-switches                                                      
+
+       0.015311705 seconds time elapsed
+
+       0.011741000 seconds user
+       0.026092000 seconds sys
+
+
+--- run 3 ---
+
+ Performance counter stats for './bench clone 1000':
+
+             27.63 msec task-clock                                                            
+               413      context-switches                                                      
+
+       0.015408997 seconds time elapsed
+
+       0.016847000 seconds user
+       0.021660000 seconds sys
+
+
+--- run 4 ---
+
+ Performance counter stats for './bench clone 1000':
+
+             24.66 msec task-clock                                                            
+               433      context-switches                                                      
+
+       0.013123790 seconds time elapsed
+
+       0.019203000 seconds user
+       0.014402000 seconds sys
+
+
+--- run 5 ---
+
+ Performance counter stats for './bench clone 1000':
+
+             23.21 msec task-clock                                                            
+               281      context-switches                                                      
+
+       0.012392456 seconds time elapsed
+
+       0.011042000 seconds user
+       0.020076000 seconds sys
+
+

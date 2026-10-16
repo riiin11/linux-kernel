@@ -1,0 +1,15 @@
+minishell (режим: fork). Команды: set pipeline-mode fork|pthread, exit
+> режим: pthread
+> 40951
+> 
+ Performance counter stats for './minishell':
+
+              6.02 msec task-clock                                                            
+                78      context-switches                                                      
+
+       0.003816750 seconds time elapsed
+
+       0.002578000 seconds user
+       0.004342000 seconds sys
+
+

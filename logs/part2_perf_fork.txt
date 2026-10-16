@@ -1,0 +1,66 @@
+=== fork ===
+--- run 1 ---
+
+ Performance counter stats for './bench fork 1000':
+
+             58.50 msec task-clock                                                            
+                21      context-switches                                                      
+
+       0.036884409 seconds time elapsed
+
+       0.051770000 seconds user
+       0.036662000 seconds sys
+
+
+--- run 2 ---
+
+ Performance counter stats for './bench fork 1000':
+
+             38.26 msec task-clock                                                            
+                16      context-switches                                                      
+
+       0.021141454 seconds time elapsed
+
+       0.040638000 seconds user
+       0.021056000 seconds sys
+
+
+--- run 3 ---
+
+ Performance counter stats for './bench fork 1000':
+
+             37.54 msec task-clock                                                            
+                16      context-switches                                                      
+
+       0.020377538 seconds time elapsed
+
+       0.040059000 seconds user
+       0.020503000 seconds sys
+
+
+--- run 4 ---
+
+ Performance counter stats for './bench fork 1000':
+
+             36.93 msec task-clock                                                            
+                19      context-switches                                                      
+
+       0.020428704 seconds time elapsed
+
+       0.039664000 seconds user
+       0.021009000 seconds sys
+
+
+--- run 5 ---
+
+ Performance counter stats for './bench fork 1000':
+
+             35.73 msec task-clock                                                            
+                16      context-switches                                                      
+
+       0.018173247 seconds time elapsed
+
+       0.039377000 seconds user
+       0.019247000 seconds sys
+
+

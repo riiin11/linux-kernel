@@ -1,0 +1,3 @@
+[10646.677705] clone_probe: pid=112783 tgid=112783 comm=bench
+[10646.677753] clone_probe: pid=112783 tgid=112783 comm=bench
+[10646.677835] clone_probe: pid=112783 tgid=112783 comm=bench

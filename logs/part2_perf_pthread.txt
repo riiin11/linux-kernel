@@ -1,0 +1,66 @@
+=== pthread ===
+--- run 1 ---
+
+ Performance counter stats for './bench pthread 1000':
+
+             23.78 msec task-clock                                                            
+               253      context-switches                                                      
+
+       0.015751331 seconds time elapsed
+
+       0.017483000 seconds user
+       0.018940000 seconds sys
+
+
+--- run 2 ---
+
+ Performance counter stats for './bench pthread 1000':
+
+             22.18 msec task-clock                                                            
+               293      context-switches                                                      
+
+       0.014264247 seconds time elapsed
+
+       0.004289000 seconds user
+       0.030029000 seconds sys
+
+
+--- run 3 ---
+
+ Performance counter stats for './bench pthread 1000':
+
+             23.29 msec task-clock                                                            
+               226      context-switches                                                      
+
+       0.015108580 seconds time elapsed
+
+       0.006757000 seconds user
+       0.029281000 seconds sys
+
+
+--- run 4 ---
+
+ Performance counter stats for './bench pthread 1000':
+
+             23.83 msec task-clock                                                            
+               375      context-switches                                                      
+
+       0.014830497 seconds time elapsed
+
+       0.010174000 seconds user
+       0.025436000 seconds sys
+
+
+--- run 5 ---
+
+ Performance counter stats for './bench pthread 1000':
+
+             22.08 msec task-clock                                                            
+               291      context-switches                                                      
+
+       0.013715372 seconds time elapsed
+
+       0.010991000 seconds user
+       0.023356000 seconds sys
+
+

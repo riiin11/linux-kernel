@@ -1,0 +1,4 @@
+[main] PID=90433, TID=90433, counter=42
+[clone-thread] TID=90434, counter before=42
+[clone-thread] TID=90434, counter after =43
+[main] after clone: counter=43 (ожидаем 43)

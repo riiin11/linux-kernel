@@ -1,0 +1,1 @@
+/home/rin4/linux-source-7.0.0/arch/arm64/boot/Image: Linux kernel ARM64 boot executable Image, little-endian, 4K pages

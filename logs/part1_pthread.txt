@@ -1,0 +1,2 @@
+[pthread] TID=90441, counter=42
+[main] counter=43
